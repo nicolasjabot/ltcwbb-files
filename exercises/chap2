@@ -1,0 +1,19 @@
+#announce_pitch function
+def announce_pitch(pitcher, pitch_type):
+    return f'{pitcher} with the {pitch_type}!'
+
+    announce_pitch('kershaw', 'slider')
+
+#batting avg commentary function
+def commentary(ba):
+    if ba>= 300:
+        return f'{ba} is a good avg'
+    else:
+        return f'{ba} is not that good'
+
+commentary(275) 
+commentary(320) 
+
+dodgers_roster = ['clayto kershaw', 'cody bellinger', 'mookie betts']
+dodgers_roster[2:]
+
